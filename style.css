@@ -8,42 +8,35 @@ body {
     width: 175px;
     margin-bottom: 50px;
     border-radius: 50%;
-
 }
 
 #welcome {
-
     position: absolute;
     height: 800px;
-    color: black;
+    color: #FFFFFF;
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
     opacity: 0.83;
-    background: linear-gradient(to bottom, #ffff66 0%, #ffffff 100%);
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
     display: table;
     width: 100%;
     height: 100%;
     z-index: 9;
-    
 }
 
-
-
 h1 {
-
     font-size: 40px;
     font-family: sans-serif;
     font-weight: 300;
-
 }
+
 
 #name {
     font-size: 50px;
     line-height: 1.2;
     font-family: 'Cinzel Decorative', cursive;
-
 }
 
 h2 {
@@ -54,7 +47,6 @@ h2 {
 }
 
 #bio {
-
     padding: 50px;
     text-align: center;
 }
@@ -66,7 +58,6 @@ h2 {
     margin: 8px auto;
 }
 
-
 p {
     max-width: 450px;
     margin: 25px auto;
@@ -75,14 +66,11 @@ p {
 }
 
 .parallax-inner {
-
     display: table-cell;
     position: relative;
     text-align: center;
     vertical-align: middle;
-
 }
-
 
 .menu {
     list-style: none;
@@ -91,10 +79,7 @@ p {
     right: 30px;
     cursor: pointer;
     z-index: 10;
-    
 }
-
-
 
 .links {
     float: left;
@@ -106,11 +91,6 @@ p {
     font-family: fantasy;
     font-size: 20px
 }
-
-img{
-  height: 300px;
-}
-
 
 .links:hover {
     background-color: aqua;
@@ -124,7 +104,34 @@ a {
     text-decoration: none;
 }
 
-
-.article:hover {
-    color:fuchsia;
+.Article:hover {
+    color: fuchsia;
 }
+#Writing a {
+    text-shadow: none !important;
+    text-decoration: underline;
+     !important;
+    color: blue !important;
+}
+
+#cotact {
+    background: firebrick;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact _1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: black;
+    text-shadow: none;
+}
+img{
+  hight:500px;
+  width:500px;
+
+} 
